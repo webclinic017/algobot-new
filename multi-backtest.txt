@@ -1,0 +1,7 @@
+ 
+1m - Scalp SmoothScalp ADXMomentum_opt ADXMomentum BinHV45 CCIStrategy Low_BB ReinforcedSmoothScalp
+5m - Simple Strategy002 ASDTS BinHV27 CofiBitStrategy EMASkipPump MACDStrategy_crossed MACDStrategy CombinedBinHAndCluc MACDStrategy Quickie ReinforcedQuickie
+15m - CMCWinner
+1h - TDSequentialStrategy AwesomeMacd AdxSmas BbandRsi Freqtrade_backtest_validation_freqtrade1 ADXMomentum
+4h - AverageStrategy
+1d - ma_crossover
