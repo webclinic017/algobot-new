@@ -1,0 +1,59 @@
+site_name: Freqtrade
+nav:
+    - Home: index.md
+    - Installation Docker: docker.md
+    - Installation: installation.md
+    - Configuration: configuration.md
+    - Strategy Customization: strategy-customization.md
+    - Stoploss: stoploss.md
+    - Start the bot: bot-usage.md
+    - Control the bot:
+        - Telegram: telegram-usage.md
+        - Web Hook: webhook-config.md
+        - REST API: rest-api.md
+    - Data Downloading: data-download.md
+    - Backtesting: backtesting.md
+    - Hyperopt: hyperopt.md
+    - Edge Positioning: edge.md
+    - Utility Subcommands: utils.md
+    - Exchange-specific Notes: exchanges.md
+    - FAQ: faq.md
+    - Data Analysis:
+        - Jupyter Notebooks: data-analysis.md
+        - Strategy analysis: strategy_analysis_example.md
+        - Plotting: plotting.md
+    - SQL Cheatsheet: sql_cheatsheet.md
+    - Advanced Post-installation Tasks: advanced-setup.md
+    - Advanced Strategy: strategy-advanced.md
+    - Advanced Hyperopt: advanced-hyperopt.md
+    - Sandbox Testing: sandbox-testing.md
+    - Deprecated Features: deprecated.md
+    - Contributors Guide: developer.md
+theme:
+  name: material
+  logo: 'images/logo.png'
+  custom_dir: 'docs'
+  palette:
+    primary: 'blue grey'
+    accent: 'tear'
+extra_css:
+  - 'stylesheets/ft.extra.css'
+markdown_extensions:
+    - admonition
+    - codehilite:
+        guess_lang: false
+    - toc:
+        permalink: true
+    - pymdownx.arithmatex
+    - pymdownx.caret
+    - pymdownx.critic
+    - pymdownx.details
+    - pymdownx.inlinehilite
+    - pymdownx.magiclink
+    - pymdownx.mark
+    - pymdownx.smartsymbols
+    - pymdownx.superfences
+    - pymdownx.tasklist:
+        custom_checkbox: true
+    - pymdownx.tilde
+    - mdx_truly_sane_lists
