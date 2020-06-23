@@ -1,0 +1,84 @@
+Best result (using 1h candle):
+
+  1896/2000:    171 trades. Avg profit   0.30%. Total profit  0.02579925 BTC (  51.55Σ%). Avg duration 381.8 min. Objective: -18.28911
+
+Buy hyperspace params:
+{'rsi-enabled': True, 'rsi-value': 41, 'trigger': 'bb_lower2'}
+Sell hyperspace params:
+{   'sell-rsi-enabled': False,
+    'sell-rsi-value': 85,
+    'sell-trigger': 'sell-bb_middle1'}
+ROI table:
+{0: 0.16192, 277: 0.09918, 406: 0.06212, 711: 0}
+Stoploss: -0.24449
+Trailing stop:
+{   'trailing_only_offset_is_reached': True,
+    'trailing_stop': True,
+    'trailing_stop_positive': 0.01147,
+    'trailing_stop_positive_offset': 0.01377}
+
+
+Best result (using 5m candle):
+
+   387/500:    119 trades. Avg profit   0.32%. Total profit  0.01908936 BTC (  38.14Σ%). Avg duration 481.5 min. Objective: -13.89581
+
+Buy hyperspace params:
+{'rsi-enabled': True, 'rsi-value': 42, 'trigger': 'bb_lower2'}
+Sell hyperspace params:
+{   'sell-rsi-enabled': True,
+    'sell-rsi-value': 43,
+    'sell-trigger': 'sell-bb_middle1'}
+ROI table:
+{0: 0.45728, 264: 0.12916, 866: 0.07994, 1284: 0}
+Stoploss: -0.25636
+Trailing stop:
+{   'trailing_only_offset_is_reached': True,
+    'trailing_stop': True,
+    'trailing_stop_positive': 0.03165,
+    'trailing_stop_positive_offset': 0.06864}
+
+
+
+
+
+
+
+Best result (Sortini 1hr, 100 days):
+
+    56/1000:     73 trades. Avg profit   1.66%. Total profit  0.06047417 BTC ( 120.83Σ%). Avg duration 2562.7 min. Objective: -4238.55522
+
+Buy hyperspace params:
+{'rsi-enabled': True, 'rsi-value': 28, 'trigger': 'bb_lower4'}
+Sell hyperspace params:
+{   'sell-rsi-enabled': True,
+    'sell-rsi-value': 90,
+    'sell-trigger': 'sell-bb_upper1'}
+ROI table:
+{0: 0.2927, 274: 0.17941, 775: 0.03545, 1793: 0}
+Stoploss: -0.29207
+Trailing stop:
+{   'trailing_only_offset_is_reached': False,
+    'trailing_stop': True,
+    'trailing_stop_positive': 0.16347,
+    'trailing_stop_positive_offset': 0.23526}
+
+Sortinii (most profitable, 1hr, 100 days):
+
+Epoch details:
+
+*   18/1000:     96 trades. Avg profit   2.09%. Total profit  0.10030568 BTC ( 200.41Σ%). Avg duration 2950.0 min. Objective: -258.30754
+
+Buy hyperspace params:
+{'rsi-enabled': False, 'rsi-value': 40, 'trigger': 'bb_lower4'}
+Sell hyperspace params:
+{   'sell-rsi-enabled': True,
+    'sell-rsi-value': 97,
+    'sell-trigger': 'sell-bb_upper1'}
+ROI table:
+{0: 0.27958, 404: 0.17176, 749: 0.06323, 2040: 0}
+Stoploss: -0.29028
+Trailing stop:
+{   'trailing_only_offset_is_reached': True,
+    'trailing_stop': True,
+    'trailing_stop_positive': 0.23596,
+    'trailing_stop_positive_offset': 0.30921}

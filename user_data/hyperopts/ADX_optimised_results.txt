@@ -1,0 +1,116 @@
+ADX_optimised
+
+Best result:
+
+   124/1000:  14678 trades. Avg profit   0.11%. Total profit  0.16186381 BTC ( 1617.07Σ%). Avg duration  76.3 min. Objective: -246.13607
+
+Buy hyperspace params:
+{   'adx-enabled': False,
+    'adx-value': 22,
+    'minus_di-enabled': True,
+    'minus_di-value': 48,
+    'mom-enabled': True,
+    'mom-value': 0}
+Sell hyperspace params:
+{   'adx-enabled': False,
+    'adx-value': 22,
+    'minus_di-enabled': True,
+    'minus_di-value': 48,
+    'mom-enabled': True,
+    'mom-value': 0}
+ROI table:
+{0: 0.0692, 7: 0.02682, 10: 0.00771, 32: 0}
+Stoploss: -0.32766
+Trailing stop:
+{   'trailing_only_offset_is_reached': True,
+    'trailing_stop': True,
+    'trailing_stop_positive': 0.32634,
+    'trailing_stop_positive_offset': 0.34487}
+(.env) UKC02PW6H7G8WN:algo-bot swel0003$
+
+
+
+
+Best result by Sortino:
+
+   200/1000:     26 trades. Avg profit   2.92%. Total profit  0.00758932 BTC (  75.82Σ%). Avg duration 3452.3 min. Objective: -10.54070
+
+Buy hyperspace params:
+{   'adx-enabled': True,
+    'adx-value': 47,
+    'minus_di-enabled': True,
+    'minus_di-value': 39,
+    'mom-enabled': True,
+    'mom-value': 28}
+Sell hyperspace params:
+{   'adx-enabled': True,
+    'adx-value': 47,
+    'minus_di-enabled': True,
+    'minus_di-value': 39,
+    'mom-enabled': True,
+    'mom-value': 28}
+ROI table:
+{0: 0.54947, 167: 0.227, 676: 0.08182, 1421: 0}
+Stoploss: -0.34963
+Trailing stop:
+{   'trailing_only_offset_is_reached': True,
+    'trailing_stop': True,
+    'trailing_stop_positive': 0.0882,
+    'trailing_stop_positive_offset': 0.1561}
+
+Best result by profit
+Epoch details:
+
+    58/1000:    122 trades. Avg profit   1.08%. Total profit  0.01322217 BTC ( 132.09Σ%). Avg duration 3293.6 min. Objective: -5.78506
+
+Buy hyperspace params:
+{   'adx-enabled': True,
+    'adx-value': 48,
+    'minus_di-enabled': True,
+    'minus_di-value': 22,
+    'mom-enabled': True,
+    'mom-value': 17}
+Sell hyperspace params:
+{   'adx-enabled': True,
+    'adx-value': 48,
+    'minus_di-enabled': True,
+    'minus_di-value': 22,
+    'mom-enabled': True,
+    'mom-value': 17}
+ROI table:
+{0: 0.41229, 264: 0.11157, 403: 0.04446, 1066: 0}
+Stoploss: -0.30087
+Trailing stop:
+{   'trailing_only_offset_is_reached': False,
+    'trailing_stop': True,
+    'trailing_stop_positive': 0.30738,
+    'trailing_stop_positive_offset': 0.33259}
+(.env) UKC02PW6H7G8WN:algo-bot swel0003$
+
+
+Epoch details: MOST PROFITABLE
+
+    47/2000:    208 trades. Avg profit   0.96%. Total profit  0.01991242 BTC ( 198.93Σ%). Avg duration 6748.0 min. Objective: -5.51506
+
+Buy hyperspace params:
+{   'adx-enabled': True,
+    'adx-value': 47,
+    'minus_di-enabled': False,
+    'minus_di-value': 45,
+    'mom-enabled': True,
+    'mom-value': 20}
+Sell hyperspace params:
+{   'adx-enabled': True,
+    'adx-value': 47,
+    'minus_di-enabled': False,
+    'minus_di-value': 45,
+    'mom-enabled': True,
+    'mom-value': 20}
+ROI table:
+{0: 0.31311, 178: 0.16166, 352: 0.05398, 1583: 0}
+Stoploss: -0.28476
+Trailing stop:
+{   'trailing_only_offset_is_reached': True,
+    'trailing_stop': True,
+    'trailing_stop_positive': 0.0187,
+    'trailing_stop_positive_offset': 0.11106}
